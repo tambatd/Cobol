@@ -1,0 +1,15 @@
+compile = ["cobc", "-x", "main.cob"]
+run = "./main"
+hidden = ["main"]
+
+[nix]
+channel = "stable-21_11"
+
+[packager]
+language = "cobol"
+
+[languages.cobol]
+pattern = "**/*.cob"
+
+[debugger]
+support = false
