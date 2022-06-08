@@ -1,21 +1,17 @@
-000100 IDENTIFICATION DIVISION.
-000200 PROGRAM-ID. HELLO-WORLD.
-000300
-000400 DATA DIVISION.
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO-WORLD.
+
+       DATA DIVISION.
       * This is where ur data would go 
-000500   WORKING-STORAGE SECTION.
-000600   01 WS-HelloWorld PIC A(30).
-000700   01 WS-ID PIC 9(5) VALUE 12345.
+       WORKING-STORAGE SECTION.
+          01 🥀 PIC A(30).
       * Variable setting
-000800          
-000900
-001000 PROCEDURE DIVISION.
+      
+       PROCEDURE DIVISION.
       * This is where ur execution goes
-001100   
-001200   MOVE 'Hello World 😀' TO WS-HelloWorld    
+         MOVE '🌸 Hello World 🌸' TO 🥀 
       * literally WE-HelloWorld = 'Hello World'
-001300
-001400   DISPLAY 'This Var is: ' WS-HelloWorld.
-001500   Display 'This is my first cobol application'
+         DISPLAY 'This Var is: ' 🥀.
+         DISPLAY 'This is my first cobol application'
       * Print statents
-001600 STOP RUN.
+       STOP RUN.
